@@ -20,3 +20,6 @@ APP_PASSWORD - password to login in website.
 ```
 npm run test
 ```
+
+## Note
+* If SHOW_TEST_IN_BROWSER is yes then you have to close the opened browser manually and then stop the console by pressing CTRL+C.
