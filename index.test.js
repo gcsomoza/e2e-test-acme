@@ -37,7 +37,7 @@ beforeAll(async () => {
     // this automated browsing experience)
     let launchOptions = { 
       headless: !isShowTestInBrowser, 
-      slowMo: 10,
+      slowMo: 100,
       executablePath: process.env.GOOGLE_CHROME_EXECUTABLE_PATH,
       // args: ['--start-maximized'],
       // args: [`--window-size=1920,1080`],
